@@ -95,7 +95,7 @@ public class KarenRunner extends BaseClass {
 
 		ClothingPojo c = new ClothingPojo();
 
-		// driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 //15
 		WebElement menu = c.getMenu();
 		WebDriverWait a = new WebDriverWait(driver, Duration.ofSeconds(40));
